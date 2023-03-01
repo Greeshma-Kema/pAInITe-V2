@@ -1,4 +1,4 @@
-/*package com.mohs10.database_testing;
+package com.mohs10.database_testing;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -26,7 +26,7 @@ public class Mercury_Info {
 	
 	System.out.println("Driver loaded");
 	
-	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mercuryinfo","root","Password");
+	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mercuryinfo","root","Hailey@700");
 	
 	System.out.println("Connected to MySQL DB");
 	
@@ -63,4 +63,4 @@ public class Mercury_Info {
 	   driver.quit();
 	  }
 
-}*/
+}

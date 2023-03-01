@@ -61,7 +61,7 @@ public class PDFReportTest extends StartBrowser  {
 		String status = driver.findElement(By.xpath("/html/body/table/tbody/tr[1]/td[2]")).getText();     //TestCase status
 		String Timestamp = driver.findElement(By.xpath("/html/body/table/tbody/tr[2]/td[2]")).getText();  //Execution start time
 		
-//fetching passes testcases time and title
+//fetching passed testcases time and title
 		List<WebElement> rows = driver.findElements(By.xpath("/html/body/p//table[@class=\"invocation-passed\"]/tbody/tr"));
 		for(int i=2;i<rows.size();i++) {
 				List<WebElement> cols = rows.get(i).findElements(By.tagName("td"));						//Breaking xpath
